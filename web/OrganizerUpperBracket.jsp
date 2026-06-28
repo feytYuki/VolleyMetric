@@ -576,25 +576,40 @@
                 gap:1rem;
             }
             .user-details {
-                display:flex;
-                flex-direction:column;
-                align-items:flex-end;
-                background:#fff;
-                border:2px solid #764ba2;
-                border-radius:5px;
-                padding:4px 10px;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end;
+                background: rgba(255,255,255,0.1);
+                border: 1px solid rgba(255,255,255,0.2);
+                border-radius: 8px;
+                padding: 5px 12px;
+                transition: all 0.3s;
+                backdrop-filter: blur(6px);
             }
+
+            .user-details:hover {
+                background: rgba(255,255,255,0.18);
+                border-color: rgba(255,255,255,0.35);
+                transform: translateY(-2px);
+                box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+            }
+
             .user-role-label {
-                font-size:.8rem;
-                font-weight:600;
-                color:#764ba2;
-                margin:0;
+                font-size: 0.72rem;
+                font-weight: 600;
+                color: rgba(255,255,255,0.6);
+                padding: 0;
+                margin: 0;
+                text-transform: uppercase;
+                letter-spacing: 0.05em;
             }
+
             .user-name {
-                font-size:.95rem;
-                font-weight:600;
-                color:#000;
-                margin:0;
+                font-size: 0.92rem;
+                font-weight: 600;
+                color: #fff;
+                padding: 0;
+                margin: 0;
             }
             .btn-logout {
                 background:linear-gradient(135deg,#667eea 0%,#764ba2 100%);
@@ -1534,7 +1549,7 @@
                     // Scroll to and highlight the winner selection area
                     const winnerSection = form.querySelector('.winner-selection');
                     if (winnerSection) {
-                        winnerSection.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                        winnerSection.scrollIntoView({behavior: 'smooth', block: 'center'});
                         winnerSection.style.outline = '2px solid #e74c3c';
                         winnerSection.style.borderRadius = '8px';
                         setTimeout(() => winnerSection.style.outline = '', 2000);

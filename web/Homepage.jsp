@@ -76,7 +76,6 @@
                     <ul class="nav-list">
                         <li><a href="Homepage.jsp" class="nav-link active">Home</a></li>
                         <li><a href="Login.jsp" class="nav-link">Tournaments</a></li>
-                        <li><a href="Login.jsp" class="nav-link">Teams</a></li>
                         <li><a href="Login.jsp" class="nav-link">Schedule</a></li>
                         <li><a href="Login.jsp" class="nav-link">Results</a></li>
                     </ul>
@@ -110,7 +109,7 @@
                     <div class="slide">
                         <img src="slide1.png" alt="Championship Moments" class="slide-img slide-img-cover">
                         <div class="slide-caption">
-                            <span class="slide-tag">Season 2025</span>
+                            <span class="slide-tag">Season 2026</span>
                             <h2 class="slide-title">Championship Moments Await</h2>
                         </div>
                     </div>
@@ -127,7 +126,7 @@
                         <img src="slide3.png" alt="Karnival Sukan MASUM" class="slide-img slide-img-contain">
                         <div class="slide-caption">
                             <span class="slide-tag">Community</span>
-                            <h2 class="slide-title">Join the VolleyMetric Community</h2>
+                            <h2 class="slide-title">Join to find volleyball community</h2>
                         </div>
                     </div>
                 </div>

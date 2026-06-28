@@ -36,24 +36,35 @@
                 display: flex;
                 flex-direction: column;
                 align-items: flex-end;
-                background: white;
-                border: 2px solid red;
-                border-radius: 5px;
-                padding: 4px 10px;
+                background: rgba(255,255,255,0.1);
+                border: 1px solid rgba(255,255,255,0.2);
+                border-radius: 8px;
+                padding: 5px 12px;
+                transition: all 0.3s;
+                backdrop-filter: blur(6px);
+            }
+
+            .user-details:hover {
+                background: rgba(255,255,255,0.18);
+                border-color: rgba(255,255,255,0.35);
+                transform: translateY(-2px);
+                box-shadow: 0 4px 12px rgba(0,0,0,0.2);
             }
 
             .user-role-label {
-                font-size: 0.8rem;
+                font-size: 0.72rem;
                 font-weight: 600;
-                color: #ff6b6b;
+                color: rgba(255,255,255,0.6);
                 padding: 0;
                 margin: 0;
+                text-transform: uppercase;
+                letter-spacing: 0.05em;
             }
 
             .user-name {
-                font-size: 0.95rem;
+                font-size: 0.92rem;
                 font-weight: 600;
-                color: #000;
+                color: #fff;
                 padding: 0;
                 margin: 0;
             }
